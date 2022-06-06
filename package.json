@@ -6,11 +6,21 @@
   "author": "Flavia Reis Valverde <fareisv@gmail.com>",
   "license": "MIT",
   "private": true,
+  "lint-staged": {
+    "*.js": ["standard --fix", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "engines": {
     "node": "16.15.x",
     "yarn": "1.22.x"
   },
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.0",
     "standard": "^17.0.0"
   }
 }
