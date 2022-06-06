@@ -7,7 +7,10 @@
   "license": "MIT",
   "private": true,
   "lint-staged": {
-    "*.js": ["standard --fix", "git add"]
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
@@ -20,7 +23,11 @@
   },
   "devDependencies": {
     "husky": "^8.0.1",
+    "jest": "^28.1.0",
     "lint-staged": "^13.0.0",
     "standard": "^17.0.0"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
