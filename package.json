@@ -1,0 +1,13 @@
+{
+  "name": "node-clean-tdd",
+  "version": "1.0.0",
+  "description": "Estudo de NodeJS - Clean Architecture e TDD",
+  "main": "index.js",
+  "author": "Flavia Reis Valverde <fareisv@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "16.15.x",
+    "yarn": "1.22.x"
+  }
+}
