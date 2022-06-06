@@ -10,6 +10,9 @@
     "node": "16.15.x",
     "yarn": "1.22.x"
   },
+  "standard": {
+    "env": ["jest"]
+  },
   "devDependencies": {
     "husky": "^8.0.1",
     "jest": "^28.1.0",
