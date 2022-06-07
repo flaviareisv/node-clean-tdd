@@ -11,7 +11,9 @@
     "yarn": "1.22.x"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "devDependencies": {
     "husky": "^8.0.1",
@@ -21,6 +23,7 @@
   },
   "scripts": {
     "test": "jest",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "prepare": "husky install"
   }
 }
